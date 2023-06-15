@@ -1,4 +1,0 @@
-title: Note
-renderType: freemarker
-templateScript: /asciidoc/templates/components/admonitionblock.ftl
-dialog: asciidoc:components/admonitionblock

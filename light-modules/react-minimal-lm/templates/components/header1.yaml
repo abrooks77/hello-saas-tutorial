@@ -1,4 +1,0 @@
-title: Header 1
-renderType: freemarker
-templateScript: /asciidoc/templates/components/header1.ftl
-dialog: asciidoc:components/header1

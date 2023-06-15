@@ -1,4 +1,0 @@
-title: Line of code
-renderType: freemarker
-templateScript: /asciidoc/templates/components/code.ftl
-dialog: asciidoc:components/code
