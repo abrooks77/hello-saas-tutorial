@@ -28,10 +28,10 @@ form:
     #   label: Description
     #   i18n: true
     #   rows: 5
-    # checkbox1:
-    #   $type: checkBoxField
-    #   label: Show title
-    #   buttonLabel: Select to display title
+    checkbox1:
+      $type: checkBoxField
+      label: Show title
+      buttonLabel: Select to display title
     # assignedSegments1:
     #   $type: MultiValueField
     #   field:
