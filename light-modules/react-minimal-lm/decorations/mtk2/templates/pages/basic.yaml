@@ -1,8 +1,0 @@
-cssFiles: !override
-  minimum:
-    link: /.resources/asciidoc/webresources/asciidoc.css
-areas: 
-  main:
-    availableComponents:
-      header1:
-        id: asciidoc:components/header1
