@@ -1,0 +1,4 @@
+title: Paragraph
+renderType: freemarker
+templateScript: /asciidoc/templates/components/paragraph.ftl
+dialog: asciidoc:components/paragraph

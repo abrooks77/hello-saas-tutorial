@@ -1,0 +1,4 @@
+title: Sidebar note
+renderType: freemarker
+templateScript: /asciidoc/templates/components/sidebar.ftl
+dialog: asciidoc:components/sidebar

@@ -1,0 +1,14 @@
+# Automatically generated dialog with few most often used fields (text, right, link, DAM image, multivalue, link to app, select). Feel free to modify them for your specific component.
+
+label: sidebar
+form:
+  properties:
+    title:
+      $type: textField
+      label: Optional title
+      i18n: true
+    sidebar:
+      $type: textField
+      label: Sidebar note
+      i18n: true   
+      rows: 3

@@ -1,0 +1,18 @@
+title: Example block
+renderType: freemarker
+templateScript: /asciidoc/templates/components/example-block.ftl
+dialog: asciidoc:components/example-block
+
+areas:
+  example-text:
+    templateScript: /asciidoc/templates/areas/sentences.ftl
+    type: list
+    availableComponents:
+      paragraph:
+        id: asciidoc:components/paragraph
+  example-code:
+    templateScript: /asciidoc/templates/areas/sentences.ftl
+    type: list
+    availableComponents:
+      code:
+        id: asciidoc:components/code

@@ -1,0 +1,4 @@
+title: Optional title
+renderType: freemarker
+templateScript: /asciidoc/templates/components/optional-title.ftl
+dialog: asciidoc:components/optional-title
