@@ -28,31 +28,31 @@ form:
     #   label: Description
     #   i18n: true
     #   rows: 5
-    checkbox1:
+    checkbox:
       $type: checkBoxField
       label: Show title
       buttonLabel: Select to display title
-    assignedSegments1:
+    assignedSegments:
       $type: multiValueField
       field:
         $type: comboBoxField
         datasource:
           $type: contentDatasource
           workspace: website
-    multi1:
+    multi:
       i18n: true
       $type: multiField
       field:
         $type: compositeField
         properties:
-          street:
+          Street:
             $type: textField
-          city:
+          City:
             i18n: true
             $type: textField
-          zip:
+          Zip:
             $type: textField
-    composite1:
+    composite:
       $type: compositeField
       properties:
         city:
@@ -61,16 +61,16 @@ form:
         country:
           label: Country
           $type: textField
-    link1:
+    link:
       $type: linkField
       datasource:
           $type: contentDatasource
           workspace: website
-    pageLink1:
+    pageLink:
       $type: pageNorsuLinkField
       showOptions: true
       textInputAllowed: true
-    date1:
+    date:
       label: Date
       $type: timestampField
       time: true
