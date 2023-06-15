@@ -39,19 +39,19 @@ form:
     #     datasource:
     #       $type: contentDatasource
     #       workspace: website
-    # multi1:
-    #   i18n: true
-    #   $type: MultiField
-    #   field:
-    #     $type: compositeField
-    #     properties:
-    #       street:
-    #         $type: textField
-    #       city:
-    #         i18n: true
-    #         $type: textField
-    #       zip:
-    #         $type: textField
+    multi1:
+      i18n: true
+      $type: MultiField
+      field:
+        $type: compositeField
+        properties:
+          street:
+            $type: textField
+          city:
+            i18n: true
+            $type: textField
+          zip:
+            $type: textField
     # composite1:
     #   $type: compositeField
     #   properties:
