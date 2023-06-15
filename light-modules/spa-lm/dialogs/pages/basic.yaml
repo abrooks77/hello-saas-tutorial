@@ -33,7 +33,7 @@ form:
       label: Show title
       buttonLabel: Select to display title
     assignedSegments1:
-      $type: MultiValueField
+      $type: multiValueField
       field:
         $type: comboBoxField
         datasource:
