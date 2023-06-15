@@ -52,28 +52,28 @@ form:
             $type: textField
           zip:
             $type: textField
-    # composite1:
-    #   $type: compositeField
-    #   properties:
-    #     city:
-    #       label: City
-    #       $type: textField
-    #     country:
-    #       label: Country
-    #       $type: textField
-    # link1:
-    #   $type: linkField
-    #   datasource:
-    #       $type: contentDatasource
-    #       workspace: website
-    # pageLink1:
-    #   $type: pageNorsuLinkField
-    #   showOptions: true
-    #   textInputAllowed: true
-    # date1:
-    #   label: Date
-    #   $type: timestampField
-    #   time: true
+    composite1:
+      $type: compositeField
+      properties:
+        city:
+          label: City
+          $type: textField
+        country:
+          label: Country
+          $type: textField
+    link1:
+      $type: linkField
+      datasource:
+          $type: contentDatasource
+          workspace: website
+    pageLink1:
+      $type: pageNorsuLinkField
+      showOptions: true
+      textInputAllowed: true
+    date1:
+      label: Date
+      $type: timestampField
+      time: true
   # layout:
   #   $type: tabbedLayout
   #   tabs:
