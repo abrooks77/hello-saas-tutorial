@@ -5,14 +5,14 @@ form:
       label: Title
       $type: textField
       i18n: true
-    # navigationTitle:
-    #   $type: textField
-    #   label: Navigation title
-    #   i18n: true
-    # windowTitle:
-    #   $type: textField
-    #   label: Window title
-    #   i18n: true
+    navigationTitle:
+      $type: textField
+      label: Navigation title
+      i18n: true
+    windowTitle:
+      $type: textField
+      label: Window title
+      i18n: true
     # hideInNav:
     #   $type: checkBoxField
     #   defaultValue: false
