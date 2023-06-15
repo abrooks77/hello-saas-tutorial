@@ -37,7 +37,7 @@ form:
       field:
         $type: comboBoxField
         datasource:
-          $type: jcrDatasource
+          $type: contentDatasource
           workspace: website
     multi1:
       i18n: true
