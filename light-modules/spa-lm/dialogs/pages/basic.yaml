@@ -5,75 +5,75 @@ form:
       label: Title
       $type: textField
       i18n: true
-    navigationTitle:
-      $type: textField
-      label: Navigation title
-      i18n: true
-    windowTitle:
-      $type: textField
-      label: Window title
-      i18n: true
-    hideInNav:
-      $type: checkBoxField
-      defaultValue: false
-      label: Hide in navigation
-      buttonLabel: Hide
-    keywords:
-      $type: textField
-      label: Keywords
-      i18n: true
-      rows: 3
-    description:
-      $type: textField
-      label: Description
-      i18n: true
-      rows: 5
-    checkbox1:
-      $type: checkBoxField
-      label: Show title
-      buttonLabel: Select to display title
-    assignedSegments1:
-      $type: MultiValueField
-      field:
-        $type: comboBoxField
-        datasource:
-          $type: contentDatasource
-          workspace: website
-    multi1:
-      i18n: true
-      $type: MultiField
-      field:
-        $type: compositeField
-        properties:
-          street:
-            $type: textField
-          city:
-            i18n: true
-            $type: textField
-          zip:
-            $type: textField
-    composite1:
-      $type: compositeField
-      properties:
-        city:
-          label: City
-          $type: textField
-        country:
-          label: Country
-          $type: textField
-    link1:
-      $type: linkField
-      datasource:
-          $type: contentDatasource
-          workspace: website
-    pageLink1:
-      $type: pageNorsuLinkField
-      showOptions: true
-      textInputAllowed: true
-    date1:
-      label: Date
-      $type: timestampField
-      time: true
+    # navigationTitle:
+    #   $type: textField
+    #   label: Navigation title
+    #   i18n: true
+    # windowTitle:
+    #   $type: textField
+    #   label: Window title
+    #   i18n: true
+    # hideInNav:
+    #   $type: checkBoxField
+    #   defaultValue: false
+    #   label: Hide in navigation
+    #   buttonLabel: Hide
+    # keywords:
+    #   $type: textField
+    #   label: Keywords
+    #   i18n: true
+    #   rows: 3
+    # description:
+    #   $type: textField
+    #   label: Description
+    #   i18n: true
+    #   rows: 5
+    # checkbox1:
+    #   $type: checkBoxField
+    #   label: Show title
+    #   buttonLabel: Select to display title
+    # assignedSegments1:
+    #   $type: MultiValueField
+    #   field:
+    #     $type: comboBoxField
+    #     datasource:
+    #       $type: contentDatasource
+    #       workspace: website
+    # multi1:
+    #   i18n: true
+    #   $type: MultiField
+    #   field:
+    #     $type: compositeField
+    #     properties:
+    #       street:
+    #         $type: textField
+    #       city:
+    #         i18n: true
+    #         $type: textField
+    #       zip:
+    #         $type: textField
+    # composite1:
+    #   $type: compositeField
+    #   properties:
+    #     city:
+    #       label: City
+    #       $type: textField
+    #     country:
+    #       label: Country
+    #       $type: textField
+    # link1:
+    #   $type: linkField
+    #   datasource:
+    #       $type: contentDatasource
+    #       workspace: website
+    # pageLink1:
+    #   $type: pageNorsuLinkField
+    #   showOptions: true
+    #   textInputAllowed: true
+    # date1:
+    #   label: Date
+    #   $type: timestampField
+    #   time: true
   # layout:
   #   $type: tabbedLayout
   #   tabs:
