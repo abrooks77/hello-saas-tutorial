@@ -33,7 +33,7 @@ form:
       label: Show title
       buttonLabel: Select to display title
     assignedSegments1:
-      $type: jcrMultiValueField
+      $type: MultiValueField
       field:
         $type: comboBoxField
         datasource:
@@ -41,7 +41,7 @@ form:
           workspace: website
     multi1:
       i18n: true
-      $type: jcrMultiField
+      $type: MultiField
       field:
         $type: compositeField
         properties:
@@ -54,8 +54,6 @@ form:
             $type: textField
     composite1:
       $type: compositeField
-      itemProvider:
-        $type: jcrChildNodeProvider
       properties:
         city:
           label: City
@@ -66,17 +64,15 @@ form:
     link1:
       $type: linkField
       datasource:
-          $type: jcrDatasource
+          $type: contentDatasource
           workspace: website
     pageLink1:
-      $type: pageLinkField
+      $type: pageNorsuLinkField
       showOptions: true
       textInputAllowed: true
-      converterClass: info.magnolia.ui.editor.converter.JcrNodeToPathConverter
     date1:
       label: Date
-      $type: dateField
-      type: java.util.Date
+      $type: timestampField
       time: true
   layout:
     $type: tabbedLayout
