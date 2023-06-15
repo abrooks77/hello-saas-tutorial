@@ -41,7 +41,7 @@ form:
     #       workspace: website
     multi1:
       i18n: true
-      $type: MultiField
+      $type: multiField
       field:
         $type: compositeField
         properties:
